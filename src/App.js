@@ -1,11 +1,13 @@
 import React from 'react';
-import Test from './03 ref/test'
+import Test from './04 useProps/test'
 export default class App extends React.Component {
     
     render() {
         return (
             <>
-                <Test />
+                <div id='myTest'>
+                    <Test />
+                </div>
             </>
         )
         
